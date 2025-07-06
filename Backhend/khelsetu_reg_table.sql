@@ -26,3 +26,5 @@ CREATE TABLE IF NOT EXISTS users (
     email VARCHAR(100),
     date_registered TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+SELECT * From users;
